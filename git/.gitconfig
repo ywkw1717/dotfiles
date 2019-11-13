@@ -1,0 +1,10 @@
+[user]
+	email = y.w.k.w.1717@gmail.com
+	name = yyy
+[color]
+	ui = true
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	ci = commit

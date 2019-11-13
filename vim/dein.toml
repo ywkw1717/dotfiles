@@ -1,0 +1,98 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+# necessary plugin
+[[plugins]]
+repo = 'Shougo/vimproc'
+
+# useful plugin
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+# auto complete
+[[plugins]]
+repo = 'Shougo/neocomplete'
+
+# code snippet
+[[plugins]]
+repo = 'Shougo/neosnippet'
+
+# snippet files
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+# binary bitmap
+[[plugins]]
+repo = 'Shougo/vinarise'
+
+# About html
+[[plugins]]
+repo = 'mattn/emmet-vim'
+
+# auto complete ruby
+[[plugins]]
+repo = 'tpope/vim-endwise'
+
+# comment out
+[[plugins]]
+repo = 'tomtom/tcomment_vim'
+
+# status line
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+
+# indent visualization
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+
+# toml syntax
+[[plugins]]
+repo = 'cespare/vim-toml'
+on_ft = 'toml'
+
+# colorscheme
+[[plugins]]
+repo = 'w0ng/vim-hybrid'
+
+# visualization whitespace
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
+
+# quick run
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+hook_post_update = '''
+  let g:quickrun_config = {'*': {'hook/time/enable': '1'},}
+'''
+
+# syntac check
+[[plugins]]
+repo = 'scrooloose/syntastic'
+
+# auto complete Python
+[[plugins]]
+repo = 'davidhalter/jedi-vim'
+
+# editorconfig
+[[plugins]]
+repo = 'editorconfig/editorconfig-vim'
+
+# solidity syntax
+[[plugins]]
+repo = 'tomlion/vim-solidity'
+
+# markdown preview
+[[plugins]]
+repo = 'kannokanno/previm'
+
+# for markdown preview
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+
+# golang
+[[plugins]]
+repo = 'fatih/vim-go'
+
+# typescript
+[[plugins]]
+repo = 'leafgarland/typescript-vim'

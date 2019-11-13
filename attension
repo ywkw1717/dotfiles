@@ -1,0 +1,25 @@
+"....vimproc.vim/lib/vimproc_linux64.so" is not found.  Please read :help vimproc and make it."
+
+If this error happened, please exec the following command.
+
+$ cd ~/.cache/dein/repos/github.com/Shougo/vimproc;make
+$ cp ~/.cache/dein/repos/github.com/Shougo/vimproc/lib/vimproc_linux64.so ~/.cache/dein/.cache/.vimrc/.dein/lib
+
+
+In addition to, change line 54 of this file.(This is the Memo for oneself)
+~/.zplug/repos/b4b4r07/enhancd/init.sh
+
+Before:
+eval "alias ${ENHANCD_COMMAND:=cd}=__enhancd::cd"
+
+After:
+eval "alias ${ENHANCD_COMMAND:=cda}=__enhancd::cd""}""}"
+
+
+
+"E185: Cannot find color scheme hybrid"
+
+If this error happened, please exec the following command.
+
+$ mkdir ~/.vim/colors
+$ cp ~/.cache/dein/repos/github.com/w0ng/vim-hybrid/colors/hybrid.vim ~/.vim/colors
